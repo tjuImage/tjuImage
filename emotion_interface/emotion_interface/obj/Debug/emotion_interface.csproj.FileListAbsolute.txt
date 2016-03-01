@@ -1,0 +1,14 @@
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\emotion_interface.exe.config
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\obj\Debug\emotion_interface.csproj.App.config
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\obj\Debug\emotion_interface.csprojResolveAssemblyReference.cache
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\emotion_interface.exe
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\emotion_interface.pdb
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\Microsoft.ProjectOxford.Emotion.dll
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\Newtonsoft.Json.dll
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\Newtonsoft.Json.xml
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\obj\Debug\emotion_interface.exe
+c:\users\code\documents\visual studio 2013\Projects\emotion_interface\emotion_interface\obj\Debug\emotion_interface.pdb
