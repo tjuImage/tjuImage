@@ -1,0 +1,16 @@
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+c:\users\tianx\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\日记\我的文档\天大\学习文件\Imagine Cup微软创新杯\复赛\程序\pintu\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
