@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using Microsoft.ProjectOxford.Emotion;
 using Microsoft.ProjectOxford.Emotion.Contract;
+using System.Threading;
 
 
 
@@ -16,8 +17,15 @@ namespace emotion_interface
         static void Main(string[] args)
         {
             string imagePath = System.Console.ReadLine();
-            getAnswer(imagePath);
-            System.Console.ReadLine(); 
+
+            getAnswer("E:\\118.png");
+            getAnswer("E:\\110.png");
+            getAnswer("E:\\111.png");
+            getAnswer("E:\\112.png");
+            getAnswer("E:\\113.png");
+            getAnswer("E:\\114.png");
+            Console.ReadLine();
+           // System.Console.ReadLine(); 
         }
 
         private static async Task<Emotion[]> UploadAndDetectEmotions(string imageFilePath)
