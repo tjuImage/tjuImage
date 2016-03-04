@@ -1,6 +1,0 @@
-c:\users\llin\documents\visual studio 2013\Projects\kinect-test2\kinect-test2\bin\Debug\kinect-test2.exe.config
-C:\Users\llin\documents\visual studio 2013\Projects\kinect-test2\kinect-test2\bin\Debug\kinect-test2.exe
-C:\Users\llin\documents\visual studio 2013\Projects\kinect-test2\kinect-test2\bin\Debug\kinect-test2.pdb
-C:\Users\llin\documents\visual studio 2013\Projects\kinect-test2\kinect-test2\obj\Debug\kinect-test2.csprojResolveAssemblyReference.cache
-C:\Users\llin\documents\visual studio 2013\Projects\kinect-test2\kinect-test2\obj\Debug\kinect-test2.exe
-C:\Users\llin\documents\visual studio 2013\Projects\kinect-test2\kinect-test2\obj\Debug\kinect-test2.pdb
