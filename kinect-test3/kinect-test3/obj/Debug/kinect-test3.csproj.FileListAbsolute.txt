@@ -1,0 +1,5 @@
+c:\users\llin\documents\visual studio 2013\Projects\kinect-test3\kinect-test3\bin\Debug\kinect-test3.exe.config
+c:\users\llin\documents\visual studio 2013\Projects\kinect-test3\kinect-test3\bin\Debug\kinect-test3.exe
+c:\users\llin\documents\visual studio 2013\Projects\kinect-test3\kinect-test3\bin\Debug\kinect-test3.pdb
+c:\users\llin\documents\visual studio 2013\Projects\kinect-test3\kinect-test3\obj\Debug\kinect-test3.exe
+c:\users\llin\documents\visual studio 2013\Projects\kinect-test3\kinect-test3\obj\Debug\kinect-test3.pdb
