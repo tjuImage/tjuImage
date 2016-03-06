@@ -18,6 +18,8 @@ namespace emotion_interface
         {
             string imagePath = System.Console.ReadLine();
 
+            //测试异步的函数，同时测试是否会互相影响速度
+            //目前看上去是不会影响速度的，所以可以可以持续发送
             getAnswer("E:\\118.png");
             getAnswer("E:\\110.png");
             getAnswer("E:\\111.png");
@@ -30,18 +32,17 @@ namespace emotion_interface
 
         private static async Task<Emotion[]> UploadAndDetectEmotions(string imageFilePath)
         {
-
+            //开发者key
             EmotionServiceClient emotionServiceClient = new EmotionServiceClient("919a011b77954c5ebe936add53c47246");
 
-          
             try
             {
+                //将本地的图片变为2进制流
+                //你也可去看给的接口，也可以传url
                 Emotion[] emotionResult;
                 using (Stream imageFileStream = File.OpenRead(imageFilePath))
                 {
-                    //
-                    // Detect the emotions in the URL
-                    //
+                    //调用另外一个异步的函数来上传
                     emotionResult = await emotionServiceClient.RecognizeAsync(imageFileStream);
                     return emotionResult;
                 }
