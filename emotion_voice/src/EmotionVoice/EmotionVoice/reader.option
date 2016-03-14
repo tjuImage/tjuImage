@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<options>
+    <item name="path" type="CHAR" num="1024" value="test.wav" lock="true" help="filepath" />
+    <item name="block" type="DOUBLE" num="1" value="1.000000e-001" lock="true" help="block size in seconds" />
+    <item name="blockInSamples" type="UINT" num="1" value="0" lock="true" help="block size in samples (overwrites block if > 0)" />
+    <item name="offset" type="DOUBLE" num="1" value="0.000000e+000" lock="true" help="offset in seconds" />
+    <item name="offsetInSamples" type="UINT" num="1" value="0" lock="true" help="offset in samples (overwrites offset if > 0)" />
+    <item name="run" type="BOOL" num="1" value="false" lock="true" help="best effort delivery" />
+    <item name="scale" type="BOOL" num="1" value="true" lock="true" help="scale to interval [-1..1]" />
+    <item name="loop" type="BOOL" num="1" value="false" lock="true" help="loop file" />
+</options>

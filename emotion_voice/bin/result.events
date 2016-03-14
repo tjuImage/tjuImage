@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<events ssi-v="2">
+	<time ms="815633057" local="2016/03/14 19:12:06:760" system="2016/03/14 11:12:06:760"/>
+    <event sender="" event="" from="2000" dur="1000" prob="1.000000" type="NTUPLE" state="COMPLETED" glue="0">
+        <tuple string="NegativeActive" value="0.309773" />
+        <tuple string="NegativePassive" value="0.690095" />
+        <tuple string="Neutral" value="0.000000" />
+        <tuple string="PositivePassive" value="0.000056" />
+        <tuple string="PositiveActive" value="0.000076" />
+    </event>
+</events>
