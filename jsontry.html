@@ -1,0 +1,80 @@
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta   http-equiv="Expires"   CONTENT="0">
+        <meta   http-equiv="Cache-Control"   CONTENT="no-cache">
+        <meta   http-equiv="Pragma"   CONTENT="no-cache">
+       	<!-- <meta http-equiv="refresh" content="1"> -->
+  </head>
+  <body>
+<script src="d3.js"></script>
+<script type="text/javascript">
+function sleep(d){
+  for(var t = Date.now();Date.now() - t <= d;);
+}
+function createXMLHttpRequest() {
+	var xmlHttp;
+	if (window.XMLHttpRequest) {
+		xmlHttp = new XMLHttpRequest();
+		if (xmlHttp.overrideMimeType)
+			xmlHttp.overrideMimeType('text/xml');
+	} else if (window.ActiveXObject) {
+		try {
+			xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+				xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e) {
+			}
+		}
+	}
+	return xmlHttp;
+}
+
+var delay=1000; //1 秒
+
+function try456(){
+setTimeout(function(){
+    // xmlHttp = createXMLHttpRequest();
+    // var a = Math.random();
+    // var url = "http://localhost/vis/jsontry.json?"+a;
+    // xmlHttp.open("GET", url, true);// 异步处理返回 
+    // xmlHttp.onreadystatechange = try123; 
+    // xmlHttp.setRequestHeader("Content-Type",
+    //         "application/x-www-form-urlencoded;");
+    // xmlHttp.send();
+    try123();
+    try456();
+}, delay); 
+}
+
+try456();
+
+
+function try123(){ //回调函数
+  d3.selectAll("svg").remove();
+  var jsonCircles = [
+    { "x_axis": 30, "y_axis": 30, "radius": 20, "color" : "green" },
+    { "x_axis": 70, "y_axis": 70, "radius": 20, "color" : "purple"},
+    { "x_axis": 110, "y_axis": 100, "radius": 20, "color" : "red"}];
+  var a = Math.random();
+  d3.json("http://localhost/vis/jsontry.json?"+a,function(tryjson){
+  var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+  var circles = svgContainer.selectAll("circle")
+                          //.data(jsonCircles)
+                          .data(tryjson)
+                          .enter()
+                          .append("circle");
+  var circleAttributes = circles
+                       .attr("cx", function (d) { return d.x_axis; })
+                       .attr("cy", function (d) { return d.y_axis; })
+                       .attr("r", function (d) { return d.radius; })
+                       .style("fill", function(d) { return d.color; });
+
+}
+);}
+</script>
+</body>
+</html>
